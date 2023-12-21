@@ -39,7 +39,7 @@ loginForm.addEventListener("submit", (e)=>{
                         const userRole = snapshot.val().role;
                         if(userRole === 'admin'){
                             alert("hellow Admin")
-                            window.location.href = '/docs/admin.html';
+                            window.location.href = '/GDG-Team-9/docs/admin.html';
                             
                         }else{
                             alert("u are not admin ")
